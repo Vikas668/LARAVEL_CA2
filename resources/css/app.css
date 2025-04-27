@@ -1,0 +1,136 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+@source "../views";
+
+
+@theme {
+    --font-serif: 'Cardo', ui-sans, Helvetica, Arial, 'Times New Roman', Times, sans;
+    --font-weight-bold: 700;
+    --font-sans:'Hanken Grotesk',ui-sans-serif,system-ui,Helvetica,sans-serif;
+    --font-italic:italic;
+
+
+    --color-kobicha: #543109ff;
+    --color-kobicha-50: rgba(84, 49, 9, 0.1);
+
+    --color-sage: #a5b294ff;
+    --color-sage-50: rgba(165, 178, 148, 0.25);
+
+
+    --color-atomic-tangerine: #fa884cff;
+    --color-atomic-tangerine-50: rgba(250, 136, 76, 0.29);
+
+    --color-lion: #b68b5eff;
+
+    --color-fawn: #e2ac6eff;
+
+    --color-ivory: #fdfaebff;
+
+    --color-onyx: #454545ff;
+
+
+}
+
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cardo-bold {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cardo-regular-italic {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.hanken-grotesk-regular {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.hanken-grotesk-bold {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.roboto-bold {
+             font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
