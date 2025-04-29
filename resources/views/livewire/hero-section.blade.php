@@ -20,7 +20,7 @@
         " >
             {{ config('content.hero_section.subheading') }}
         </p>
-        <p class="text-justify font-sans text-kobicha pr-4 pl-4 lg:break-words lg:w-[50ch] self-start text-xl">
+        <p class="text-justify font-serif text-kobicha pr-4 pl-4 lg:break-words lg:w-[50ch] self-start text-xl">
             {{ config('content.hero_section.description') }}
         </p>
         <div class="flex flex-row gap-4 w-full justify-evenly p-4 lg:justify-start">

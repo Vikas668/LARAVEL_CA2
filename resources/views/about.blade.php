@@ -1,1 +1,1 @@
-@extends('components.layouts.app')
+@extends('components.layouts.about')
