@@ -29,7 +29,7 @@
         </livewire:navbar>
     </header>
     <main>
-    <!-- livewire/our-story.blade.php -->
+    
 <div class="flex flex-col gap-8 py-12 px-6 max-w-7xl mx-auto">
     <!-- Hero Section -->
     <div class="flex flex-col lg:flex-row gap-8 items-center">
